@@ -1,0 +1,57 @@
+version: "3"
+
+# 声明一个名为network的networks,subnet为network的子网地址,默认网关是177.7.0.1
+networks:
+  network:
+    ipam:
+      driver: default
+      config:
+        - subnet: 177.7.0.0/16
+  
+services:
+  # 前端页面层（angular）
+  web:
+    build:
+      context: ./web
+      dockerfile: ./Dockerfile
+    container_name: fordeal-web
+    restart: always
+    ports:
+      - '8080:8080'
+    environment:
+      - TZ=Asia/Shanghai
+    depends_on:
+      - server
+    command: [ 'nginx-debug', '-g', 'daemon off;' ]
+    networks:
+      network:
+        ipv4_address: 177.7.0.11
+
+  # 后端接口层（go）
+  server:
+    build:
+      context: ./server
+      dockerfile: ./Dockerfile
+    container_name: fordeal-server
+    restart: always
+    ports:
+      - '9501:9501'
+    environment:
+      - TZ=Asia/Shanghai
+    networks:
+      network:
+        ipv4_address: 177.7.0.12
+
+  # 脚本（python）
+  script:
+    build:
+      context: ./script
+      dockerfile: ./Dockerfile
+    container_name: fordeal-script
+    platform: linux
+    restart: always
+    environment:
+      - TZ=Asia/Shanghai
+    networks:
+      network:
+        ipv4_address: 177.7.0.11

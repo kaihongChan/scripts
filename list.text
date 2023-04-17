@@ -1,0 +1,109 @@
+入库计划：https://cn-ali-gw.fordeal.com/merchant/dwp.galio.queryInboundPlan/1
+
+data: {"page":1,"pageSize":15,"fulfillmentCenterId":"","planId":"","planStatus":"","skuId":""}
+gw_ver: 1
+ct: 1677385800353
+plat: h5
+appname: fordeal
+sign: 4b210162460f099a3f128badba476291
+
+退换货待确认：https://cn-ali-gw.fordeal.com/merchant/dwp.galio.listExceptionShootImg/1 （完成）
+data: {"ssuId":"137984871"}
+gw_ver: 1
+ct: 1677389920685
+plat: h5
+appname: fordeal
+sign: f81c3eac8e4635712f0d1db2a953f9ab
+
+shopTrend: https://cn-ali-gw.fordeal.com/merchant/dwp.galio.shopTrend/1 （完成）
+data: {"startDate":"2023-02-27","endDate":"2023-02-27","dateType":1,"selectType":4}
+gw_ver: 1
+ct: 1677587590071
+plat: h5
+appname: fordeal
+sign: 066b3ab32235cef728407b32f4fc0205
+
+shopTraffic: https://cn-ali-gw.fordeal.com/merchant/dwp.galio.shopTraffic/1 （完成）
+data: {"startDate":"2023-02-27","endDate":"2023-02-27","dateType":1,"selectType":4}
+gw_ver: 1
+ct: 1677587590072
+plat: h5
+appname: fordeal
+sign: 5c9f369b932eb8d87282ee74afab0b2a
+{"api":"dwp.galio.shopTraffic","code":1001,"data":{"meta_list":[{"isPercent":0,"unit":"","code":"ctm_item_click_uv","isMoney":0,"type":1,"selected":0},{"isPercent":1,"unit":"%","code":"ctm_order_view_rate","name":"下单转化率","isMoney":0,"type":1,"selected":0,"desc":"统计周期内，下单买家数/商品访客数，即来访客户转化为下单买家的比例。"}],"first_traffic_trend":[{"date":"2023-02-21","shop_id":"1338732","source_l1_id":"120","source_l2_id":"2000","source_id":"120","ctm_item_click_uv":"93","sort_date":"2023-02-21","source_l3_id":"20003"},{"date":"2023-02-21","shop_id":"1338732","source_l1_id":"100","source_l2_id":"1004","source_id":"100","ctm_item_click_uv":"1556","sort_date":"2023-02-21","source_l3_id":"10006"},{"date":"2023-02-21","shop_id":"1338732","source_l1_id":"103","source_l2_id":"1300","source_id":"103","ctm_item_click_uv":"5","sort_date":"2023-02-21","source_l3_id":"0"},{"date":"2023-02-21","shop_id":"1338732","source_id":"101","sort_date":"2023-02-21","ctm_item_click_uv":"0"},{"date":"2023-02-21","shop_id":"1338732","source_id":"102","sort_date":"2023-02-21","ctm_item_click_uv":"0"},{"date":"2023-02-22","shop_id":"1338732","source_l1_id":"100","source_l2_id":"1004","source_id":"100","ctm_item_click_uv":"1895","sort_date":"2023-02-22","source_l3_id":"10006"},{"date":"2023-02-22","shop_id":"1338732","source_l1_id":"120","source_l2_id":"2000","source_id":"120","ctm_item_click_uv":"111","sort_date":"2023-02-22","source_l3_id":"20003"},{"date":"2023-02-22","shop_id":"1338732","source_l1_id":"103","source_l2_id":"1300","source_id":"103","ctm_item_click_uv":"7","sort_date":"2023-02-22","source_l3_id":"0"},{"date":"2023-02-22","shop_id":"1338732","source_id":"101","sort_date":"2023-02-22","ctm_item_click_uv":"0"},{"date":"2023-02-22","shop_id":"1338732","source_id":"102","sort_date":"2023-02-22","ctm_item_click_uv":"0"},{"date":"2023-02-23","shop_id":"1338732","source_l1_id":"100","source_l2_id":"1004","source_id":"100","ctm_item_click_uv":"2452","sort_date":"2023-02-23","source_l3_id":"10006"},{"date":"2023-02-23","shop_id":"1338732","source_l1_id":"120","source_l2_id":"2000","source_id":"120","ctm_item_click_uv":"141","sort_date":"2023-02-23","source_l3_id":"20003"},{"date":"2023-02-23","shop_id":"1338732","source_l1_id":"103","source_l2_id":"1300","source_id":"103","ctm_item_click_uv":"7","sort_date":"2023-02-23","source_l3_id":"0"},{"date":"2023-02-23","shop_id":"1338732","source_id":"101","sort_date":"2023-02-23","ctm_item_click_uv":"0"},{"date":"2023-02-23","shop_id":"1338732","source_id":"102","sort_date":"2023-02-23","ctm_item_click_uv":"0"},{"date":"2023-02-24","shop_id":"1338732","source_l1_id":"100","source_l2_id":"1004","source_id":"100","ctm_item_click_uv":"3171","sort_date":"2023-02-24","source_l3_id":"10006"},{"date":"2023-02-24","shop_id":"1338732","source_l1_id":"120","source_l2_id":"2000","source_id":"120","ctm_item_click_uv":"213","sort_date":"2023-02-24","source_l3_id":"20003"},{"date":"2023-02-24","shop_id":"1338732","source_l1_id":"103","source_l2_id":"1300","source_id":"103","ctm_item_click_uv":"29","sort_date":"2023-02-24","source_l3_id":"0"},{"date":"2023-02-24","shop_id":"1338732","source_id":"101","sort_date":"2023-02-24","ctm_item_click_uv":"0"},{"date":"2023-02-24","shop_id":"1338732","source_id":"102","sort_date":"2023-02-24","ctm_item_click_uv":"0"},{"date":"2023-02-25","shop_id":"1338732","source_l1_id":"100","source_l2_id":"1004","source_id":"100","ctm_item_click_uv":"3438","sort_date":"2023-02-25","source_l3_id":"10006"},{"date":"2023-02-25","shop_id":"1338732","source_l1_id":"120","source_l2_id":"2000","source_id":"120","ctm_item_click_uv":"220","sort_date":"2023-02-25","source_l3_id":"20003"},{"date":"2023-02-25","shop_id":"1338732","source_l1_id":"103","source_l2_id":"1300","source_id":"103","ctm_item_click_uv":"46","sort_date":"2023-02-25","source_l3_id":"0"},{"date":"2023-02-25","shop_id":"1338732","source_id":"101","sort_date":"2023-02-25","ctm_item_click_uv":"0"},{"date":"2023-02-25","shop_id":"1338732","source_id":"102","sort_date":"2023-02-25","ctm_item_click_uv":"0"},{"date":"2023-02-26","shop_id":"1338732","source_l1_id":"120","source_l2_id":"2000","source_id":"120","ctm_item_click_uv":"237","sort_date":"2023-02-26","source_l3_id":"20003"},{"date":"2023-02-26","shop_id":"1338732","source_l1_id":"100","source_l2_id":"1004","source_id":"100","ctm_item_click_uv":"4219","sort_date":"2023-02-26","source_l3_id":"10006"},{"date":"2023-02-26","shop_id":"1338732","source_l1_id":"103","source_l2_id":"1300","source_id":"103","ctm_item_click_uv":"24","sort_date":"2023-02-26","source_l3_id":"0"},{"date":"2023-02-26","shop_id":"1338732","source_id":"101","sort_date":"2023-02-26","ctm_item_click_uv":"0"},{"date":"2023-02-26","shop_id":"1338732","source_id":"102","sort_date":"2023-02-26","ctm_item_click_uv":"0"},{"date":"2023-02-27","shop_id":"1338732","source_l1_id":"120","source_l2_id":"2000","source_id":"120","ctm_item_click_uv":"283","sort_date":"2023-02-27","source_l3_id":"20003"},{"date":"2023-02-27","shop_id":"1338732","source_l1_id":"100","source_l2_id":"1004","source_id":"100","ctm_item_click_uv":"4449","sort_date":"2023-02-27","source_l3_id":"10006"},{"date":"2023-02-27","shop_id":"1338732","source_l1_id":"103","source_l2_id":"1300","source_id":"103","ctm_item_click_uv":"31","sort_date":"2023-02-27","source_l3_id":"0"},{"date":"2023-02-27","shop_id":"1338732","source_id":"101","sort_date":"2023-02-27","ctm_item_click_uv":"0"},{"date":"2023-02-27","shop_id":"1338732","source_id":"102","sort_date":"2023-02-27","ctm_item_click_uv":"0"}],"second_traffic_rank":[{"order_uv":"6","source_l1_id":"100","source_l2_id":"1004","item_cart_uv":"316","ctm_item_click_pv":"1838","ctm_item_click_uv":"1828","item_cart_pv":"317","shop_id":"1338732","ctm_order_view_rate":"0.33%","item_order_usd":"90.99","item_order_cnt":"6","source_id":"1004","item_cart_cnt":"319","source_l3_id":"0"},{"order_uv":"2","source_l1_id":"100","source_l2_id":"1000","item_cart_uv":"81","ctm_item_click_pv":"1146","ctm_item_click_uv":"1144","item_cart_pv":"81","shop_id":"1338732","ctm_order_view_rate":"0.17%","item_order_usd":"21","item_order_cnt":"2","source_id":"1000","item_cart_cnt":"81","source_l3_id":"0"},{"order_uv":"3","source_l1_id":"100","source_l2_id":"1001","item_cart_uv":"64","ctm_item_click_pv":"796","ctm_item_click_uv":"783","item_cart_pv":"64","shop_id":"1338732","ctm_order_view_rate":"0.38%","item_order_usd":"38.5","item_order_cnt":"3","source_id":"1001","item_cart_cnt":"64","source_l3_id":"10006"},{"order_uv":"0","source_l1_id":"100","source_l2_id":"1002","item_cart_uv":"22","ctm_item_click_pv":"656","ctm_item_click_uv":"650","item_cart_pv":"22","shop_id":"1338732","ctm_order_view_rate":"0%","item_order_usd":"0","item_order_cnt":"0","source_id":"1002","item_cart_cnt":"22","source_l3_id":"0"},{"order_uv":"2","source_l1_id":"120","source_l2_id":"2000","item_cart_uv":"62","ctm_item_click_pv":"292","ctm_item_click_uv":"283","item_cart_pv":"84","shop_id":"1338732","ctm_order_view_rate":"0.71%","item_order_usd":"24.2","item_order_cnt":"2","source_id":"2000","item_cart_cnt":"63","source_l3_id":"20003"},{"order_uv":"0","source_l1_id":"100","source_l2_id":"1003","item_cart_uv":"4","ctm_item_click_pv":"44","ctm_item_click_uv":"44","item_cart_pv":"4","shop_id":"1338732","ctm_order_view_rate":"0%","item_order_usd":"0","item_order_cnt":"0","source_id":"1003","item_cart_cnt":"4","source_l3_id":"0"},{"order_uv":"0","source_l1_id":"103","source_l2_id":"1300","item_cart_uv":"1","ctm_item_click_pv":"31","ctm_item_click_uv":"31","item_cart_pv":"1","shop_id":"1338732","ctm_order_view_rate":"0%","item_order_usd":"0","item_order_cnt":"0","source_id":"1300","item_cart_cnt":"1","source_l3_id":"0"}]},"dmsg":"success","msg":"success","v":"1"}
+
+shopTrans:https://cn-ali-gw.fordeal.com/merchant/dwp.galio.shopTrans/1 （完成）
+data: {"startDate":"2023-02-28","endDate":"2023-02-28","dateType":1,"selectType":1}
+gw_ver: 1
+ct: 1677683242565
+plat: h5
+appname: fordeal
+sign: 3722e5bbd3980600966c42831e03ede9
+
+itemFlowRank(商品流量排行):https://cn-ali-gw.fordeal.com/merchant/dwp.galio.itemFlowRank/1 （完成）
+data: {"startDate":"2023-02-28","endDate":"2023-02-28","dateType":1,"selectType":1}
+gw_ver: 1
+ct: 1677683242566
+plat: h5
+appname: fordeal
+sign: 790d333c22dacfd11950f1d7c20390f3
+
+
+
+
+getSaleOrderOverviewInfo: https://cn-ali-gw.fordeal.com/merchant/dwp.galio.getSaleOrderOverviewInfo/1   get （已完成）
+data:{"orderSn":"61312962231908435446"}
+gw_ver:1
+ct:1677761799801
+plat:h5
+appname:fordeal
+sign:cce8749cdd62d453e06c20890e513caf
+
+listSaleOrderItemOverview: https://cn-ali-gw.fordeal.com/merchant/dwp.galio.listSaleOrderItemOverview/1  get （已完成）
+data:{"orderSn":"61312962231908435446"}
+gw_ver:1
+ct:1677761799803
+plat:h5
+appname:fordeal
+sign:bb818b31c19a8b4d344721665b3ad963
+
+https://cn-ali-gw.fordeal.com/merchant/dwp.galio.listSaleOrderItemCurrent/1 get （已完成）
+data: {"orderSn":"61312962231908435446","recordId":0}
+gw_ver: 1
+ct: 1677762027138
+plat: h5
+appname: fordeal
+sign: 7a90013b8465260ee44679fd9bd3545e
+
+
+itemOverview（单品分析）: https://cn-ali-gw.fordeal.com/merchant/dwp.galio.itemOverview/1 get
+data: {"startDate":"2023-03-01","endDate":"2023-03-01","dateType":1,"selectType":1,"itemId":"37101223"}
+gw_ver: 1
+ct: 1677762204638
+plat: h5
+appname: fordeal
+sign: d308e06b99a03efd3b374c8faa1ce935
+
+itemTrend：https://cn-ali-gw.fordeal.com/merchant/dwp.galio.itemTrend/1 get
+data: {"startDate":"2023-03-01","endDate":"2023-03-01","dateType":1,"selectType":1,"itemId":"37101223"}
+gw_ver: 1
+ct: 1677762204639
+plat: h5
+appname: fordeal
+sign: cb2bcbb23d0db6fd27a994243c478706
+
+trafficMeta: https://cn-ali-gw.fordeal.com/merchant/dwp.galio.trafficMeta/1 get （已完成）
+data: {}
+gw_ver: 1
+ct: 1677762204640
+plat: h5
+appname: fordeal
+sign: 9e4633081898913ffd1e8ffe8246f304
+
+itemTraffic: https://cn-ali-gw.fordeal.com/merchant/dwp.galio.itemTraffic/1 （待）
+data:{"startDate":"2023-03-01","endDate":"2023-03-01","dateType":1,"selectType":1,"itemId":"37101223"}
+gw_ver:1
+ct:1677762204640
+plat:h5
+appname:fordeal
+sign:fc1791359a0ea1935b89a09241b8f0e3

@@ -1,0 +1,154 @@
+{
+    "api": "dwp.galio.skuTrend",
+    "code": 1001,
+    "data": {
+        "trend": [
+            {
+                "date": "2023-03-05",
+                "shop_id": "1338732",
+                "item_id": "0",
+                "sku_verified_uv": "0",
+                "sku_id": "0",
+                "sku_verified_cnt": "0",
+                "sort_date": "2023-03-05",
+                "sku_cart_uv": "0",
+                "sku_cart_cnt": "0"
+            },
+            {
+                "date": "2023-03-06",
+                "shop_id": "1338732",
+                "item_id": "0",
+                "sku_verified_uv": "0",
+                "sku_id": "0",
+                "sku_verified_cnt": "0",
+                "sort_date": "2023-03-06",
+                "sku_cart_uv": "0",
+                "sku_cart_cnt": "0"
+            },
+            {
+                "date": "2023-03-07",
+                "shop_id": "1338732",
+                "item_id": "0",
+                "sku_verified_uv": "0",
+                "sku_id": "0",
+                "sku_verified_cnt": "0",
+                "sort_date": "2023-03-07",
+                "sku_cart_uv": "0",
+                "sku_cart_cnt": "0"
+            },
+            {
+                "date": "2023-03-08",
+                "shop_id": "1338732",
+                "item_id": "37001235",
+                "sku_verified_uv": "0",
+                "sku_id": "483047995",
+                "sku_verified_cnt": "0",
+                "sort_date": "2023-03-08",
+                "sku_cart_uv": "1",
+                "sku_cart_cnt": "1"
+            },
+            {
+                "date": "2023-03-09",
+                "shop_id": "1338732",
+                "item_id": "0",
+                "sku_verified_uv": "0",
+                "sku_id": "0",
+                "sku_verified_cnt": "0",
+                "sort_date": "2023-03-09",
+                "sku_cart_uv": "0",
+                "sku_cart_cnt": "0"
+            },
+            {
+                "date": "2023-03-10",
+                "shop_id": "1338732",
+                "item_id": "0",
+                "sku_verified_uv": "0",
+                "sku_id": "0",
+                "sku_verified_cnt": "0",
+                "sort_date": "2023-03-10",
+                "sku_cart_uv": "0",
+                "sku_cart_cnt": "0"
+            },
+            {
+                "date": "2023-03-11",
+                "shop_id": "1338732",
+                "item_id": "37001235",
+                "sku_verified_uv": "0",
+                "sku_id": "483047995",
+                "sku_verified_cnt": "0",
+                "sort_date": "2023-03-11",
+                "sku_cart_uv": "1",
+                "sku_cart_cnt": "1"
+            }
+        ],
+        "sku_verified_uv": {
+            "compareValue": "-",
+            "compareDesc": "较前一日",
+            "compare": 0,
+            "content": "0"
+        },
+        "meta_list": [
+            {
+                "isPercent": 0,
+                "unit": "",
+                "code": "sku_cart_uv",
+                "name": "加购人数",
+                "isMoney": 0,
+                "type": 3,
+                "selected": 0,
+                "desc": "统计时间内，将当前商品或sku加入购物车的每日去重人数的累加。一个人在1天内加购多次只记一次"
+            },
+            {
+                "isPercent": 0,
+                "unit": "",
+                "code": "sku_cart_cnt",
+                "name": "加购件数",
+                "isMoney": 0,
+                "type": 3,
+                "selected": 0,
+                "desc": "统计周期内，您当前商品或sku被加入购物车的件数总和。"
+            },
+            {
+                "isPercent": 0,
+                "unit": "",
+                "code": "sku_verified_cnt",
+                "name": "订单确认件数",
+                "isMoney": 0,
+                "type": 3,
+                "selected": 0,
+                "desc": "统计周期内，经用户确认后的订单中当前商品或sku的件数总和，不考虑用户确认后取消订单的情况"
+            },
+            {
+                "isPercent": 0,
+                "unit": "",
+                "code": "sku_verified_uv",
+                "name": "订单确认人数",
+                "isMoney": 0,
+                "type": 3,
+                "selected": 0,
+                "desc": "统计周期内，经用户确认后的订单覆盖的每日去重人数的累加。一个人拍下多件或多笔，只算一个人，不考虑用户确认后取消订单的情况。"
+            }
+        ],
+        "sku_verified_cnt": {
+            "compareValue": "-",
+            "compareDesc": "较前一日",
+            "compare": 0,
+            "content": "0"
+        },
+        "sku_cart_uv": {
+            "compareValue": "+100.00%",
+            "compareDesc": "较前一日",
+            "compare": 1,
+            "content": "1"
+        },
+        "sku_cart_cnt": {
+            "compareValue": "+100.00%",
+            "compareDesc": "较前一日",
+            "compare": 1,
+            "content": "1"
+        }
+    },
+    "dmsg": "success",
+    "msg": "success",
+    "v": "1"
+}

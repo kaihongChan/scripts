@@ -1,0 +1,2 @@
+* * * * * /app/scripts/jobs.sh >> /app/scripts/logs/jobs.log
+* * * * * /app/scripts/handlers.sh >> /app/scripts/logs/handlers.log
