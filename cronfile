@@ -1,2 +1,5 @@
+@monthly /app/script/app/common/common.sh >> /app/logs/common.log
+@monthly /app/script/shop/shop_info_job.sh >> /app/logs/shop_info.log
+
 * * * * * /app/scripts/jobs.sh >> /app/scripts/logs/jobs.log
 * * * * * /app/scripts/handlers.sh >> /app/scripts/logs/handlers.log
